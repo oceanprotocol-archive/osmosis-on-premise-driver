@@ -1,3 +1,11 @@
-osmosis-driver-interface==0.0.4
-PyYAML>=4.2b1
+# pip install squid-py
+# is for end users. That will install the packages
+# listed in the install_requires list of setup.py.
 
+# pip install -r requirements_dev.txt
+# is for the developers of squid-py, so doing that should
+# install all the Python packages listed
+# in the install_requires list of setup.py
+# and also the 'dev' list in the extras_require dict
+
+-e .[dev]
