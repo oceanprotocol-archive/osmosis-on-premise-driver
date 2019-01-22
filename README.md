@@ -20,6 +20,15 @@
 
 ---
 
+## Quickstart
+
+The only thing that you have to use your osmosis-on-premise-driver through the [osmosis-driver-interface](http://github.com/oceanprotocol/osmosis-driver-interface)
+is provide the following config with:
+
+```yaml
+[osmosis]
+module=on_premise
+```
 
 ## Code style
 
