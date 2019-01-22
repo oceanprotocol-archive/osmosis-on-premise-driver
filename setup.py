@@ -50,7 +50,7 @@ docs_requirements = [
 ]
 
 packages = []
-for d, _, _ in os.walk('squid_py'):
+for d, _, _ in os.walk('osmosis_on_premise_driver'):
     if os.path.exists(join(d, '__init__.py')):
         packages.append(d.replace(os.path.sep, '.'))
 
@@ -83,6 +83,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/oceanprotocol/osmosis-on-premise-driver',
-    version='0.0.2',
+    version='0.0.4',
     zip_safe=False,
 )
