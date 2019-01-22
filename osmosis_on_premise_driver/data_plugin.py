@@ -16,7 +16,7 @@ class Plugin(AbstractPlugin):
         pass
 
     def generate_url(self, remote_file):
-        pass
+        return remote_file
 
     def delete(self, remote_file):
         pass
