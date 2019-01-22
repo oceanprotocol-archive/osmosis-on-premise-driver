@@ -2,6 +2,9 @@ from osmosis_driver_interface.data_plugin import AbstractPlugin
 
 
 class Plugin(AbstractPlugin):
+    def __init__(self, config=None):
+        self.config = config
+
     def type(self):
         """str: the type of this plugin (``'On premise'``)"""
         return 'On premise'
