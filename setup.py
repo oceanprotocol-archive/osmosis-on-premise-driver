@@ -50,7 +50,7 @@ docs_requirements = [
 ]
 
 packages = []
-for d, _, _ in os.walk('squid_py'):
+for d, _, _ in os.walk('osmosis_on_premise_driver'):
     if os.path.exists(join(d, '__init__.py')):
         packages.append(d.replace(os.path.sep, '.'))
 
