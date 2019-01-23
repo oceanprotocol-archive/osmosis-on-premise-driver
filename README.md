@@ -5,9 +5,11 @@
 > 💧 Osmosis On Premise Driver Implementation
 > [oceanprotocol.com](https://oceanprotocol.com)
 
-[![Build Status](https://travis-ci.com/oceanprotocol/osmosis-on-premise-driver.svg)](https://travis-ci.com/oceanprotocol/osmosis-on-premise-driver)
 [![PyPI](https://img.shields.io/pypi/v/osmosis-on-premise-driver.svg)](https://pypi.org/project/osmosis-on-premise-driver/)
+[![Build Status](https://travis-ci.com/oceanprotocol/osmosis-on-premise-driver.svg)](https://travis-ci.com/oceanprotocol/osmosis-on-premise-driver)
 [![GitHub contributors](https://img.shields.io/github/contributors/oceanprotocol/osmosis-on-premise-driver.svg)](https://github.com/oceanprotocol/osmosis-on-premise-driver/graphs/contributors)
+[![Codacy Badge](https://img.shields.io/codacy/grade/ad7aaa0326584eb0b52d69b0a36474bb.svg)](https://app.codacy.com/project/ocean-protocol/osmosis-on-premise-driver/dashboard)
+[![Codacy coverage](https://img.shields.io/codacy/coverage/ad7aaa0326584eb0b52d69b0a36474bb.svg)](https://app.codacy.com/project/ocean-protocol/osmosis-on-premise-driver/dashboard)
 
 ---
 ## Table of Contents
