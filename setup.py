@@ -3,6 +3,9 @@
 
 """The setup script."""
 
+#  Copyright 2018 Ocean Protocol Foundation
+#  SPDX-License-Identifier: Apache-2.0
+
 from setuptools import setup
 import os
 from os.path import join
