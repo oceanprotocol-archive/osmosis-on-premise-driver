@@ -22,7 +22,7 @@ with open('HISTORY.md') as history_file:
 install_requirements = [
     'coloredlogs',
     'PyYAML>=4.2b1',
-    'osmosis-driver-interface==0.0.4',
+    'osmosis-driver-interface==0.0.6',
 ]
 
 # Required to run setup.py:
