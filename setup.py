@@ -3,6 +3,9 @@
 
 """The setup script."""
 
+#  Copyright 2018 Ocean Protocol Foundation
+#  SPDX-License-Identifier: Apache-2.0
+
 from setuptools import setup
 import os
 from os.path import join
@@ -10,7 +13,7 @@ from os.path import join
 with open('README.md') as readme_file:
     readme = readme_file.read()
 
-with open('HISTORY.md') as history_file:
+with open('CHANGELOG.md') as history_file:
     history = history_file.read()
 
 
@@ -19,7 +22,7 @@ with open('HISTORY.md') as history_file:
 install_requirements = [
     'coloredlogs',
     'PyYAML>=4.2b1',
-    'osmosis-driver-interface==0.0.4',
+    'osmosis-driver-interface==0.0.6',
 ]
 
 # Required to run setup.py:
@@ -50,7 +53,7 @@ docs_requirements = [
 ]
 
 packages = []
-for d, _, _ in os.walk('squid_py'):
+for d, _, _ in os.walk('osmosis_on_premise_driver'):
     if os.path.exists(join(d, '__init__.py')):
         packages.append(d.replace(os.path.sep, '.'))
 
@@ -83,6 +86,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/oceanprotocol/osmosis-on-premise-driver',
-    version='0.0.1',
+    version='0.0.6',
     zip_safe=False,
 )
